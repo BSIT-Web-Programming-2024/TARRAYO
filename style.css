@@ -186,8 +186,8 @@ section{
     text-align: left;
 
 }
-.about-contentp{
-    font-size: 1.8rem;
+.about-content p{
+    font-size: 2rem;
 }
 .about-content .btn{
     margin: 3rem 0;
@@ -365,4 +365,3 @@ footer .social-icons{
         flex-direction: column;
     }
 }
-
