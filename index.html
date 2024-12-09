@@ -3,174 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Portfolio</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css"/>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    
 </head>
 <body>
     
 <header class="header">
-    <a href="#home"class = "logo">Tar<span>rayo</span></a>
-
+    <a href="#home" class="logo">Tar<span>rayo</span></a>
     <i class="bx bx-menu" id="menu-icon"></i>
-
     <nav class="navbar">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
-        
-
+        <a href="#home" class="nav-home">Home</a>
+        <a href="#about" class="nav-about">About</a>
+        <a href="#services" class="nav-services">Services</a>
+        <a href="#contact" class="nav-contact">Contact</a>
     </nav>
 </header>
 
 <section class="home" id="home">
-
     <div class="home-content">
-        <h1> Hi, It's<span> Tarrayo</span></h1>
-        <h3> I'm a <span> frontend Developer</span></h3>
-        <p> I am a front end developer. I can provide clean codes and pixel perfect design. 
-            I also make the website more and more interactive with web animation.
-            A responsive design that makes your website accessible to all users, regardless of their device.</p>
-   
-         <div class="social-icons">
+        <h1 class="home-hi">Hi, It's <span>Tarrayo</span></h1>
+        <h3 class="home-role">I'm a <span>Frontend Developer</span></h3>
+        <p class="home-description">I specialize in front-end development, offering clean, efficient code and pixel-perfect designs. I create interactive and engaging websites, implementing web animations to enhance the user experience. My responsive designs ensure your website functions seamlessly on all devices, from desktop to mobile.</p>
+        <div class="social-icons">
             <a href="#"><i class="bx bxl-github"></i></a>
-                <a href="#"><i class="bx bxl-discord"></i></a>
-                <a href="https://www.instagram.com/yana_yx.nx?igsh=MWsyOXRyY3ExN3dqbQ=="
-                 target="_blank"><i class="bx bxl-instagram-alt"></i></a>
-                 <a href="https://www.facebook.com/danielanicole.tarrayo.3?mibextid=ZbWKwL" 
-                 target="_blank"><i class="bx bxl-facebook"></i></a>
-
-         </div>
-
-         <div class="btn-group">
-            <a href="#" class="btn">Hire</a>
-            <a href="#contact" class="btn">Contact</a>
-         </div>
-
+            <a href="#"><i class="bx bxl-discord"></i></a>
+            <a href="https://www.instagram.com/yana_yx.nx?igsh=MWsyOXRyY3ExN3dqbQ==" target="_blank"><i class="bx bxl-instagram-alt"></i></a>
+            <a href="https://www.facebook.com/danielanicole.tarrayo.3?mibextid=ZbWKwL" target="_blank"><i class="bx bxl-facebook"></i></a>
         </div>
-
-
-    <div class ="home-img">
-        <img src="yana.jpg" alt="">
+        <div class="btn-group">
+            <a href="#" class="btn hire-btn">Hire Me</a>
+            <a href="#contact" class="btn contact-btn">Contact Me</a>
+        </div>
+    </div>
+    <div class="home-img">
+        <img src="yana.jpg" alt="Tarrayo">
     </div>
 </section>
 
-
 <section class="about" id="about">
-
     <div class="about-img">
-        <img src="dan.jpg" alt="">
+        <img src="dan.jpg" alt="About Tarrayo">
     </div>
-
     <div class="about-content">
-        <h2> About <span> Me</span></h2>
-        <p>I work as a front-end programmer. I can offer pixel-perfect design and clear codes.
-             Additionally, I use web animation to make the website even more engaging. 
-            A responsive design that works with any device to make your website usable for everyone.
-        </p>
-        <a href="#" class="btn"> Read More</a>
+        <h2 class="about-heading">About <span>Me</span></h2>
+        <p class="about-description">I am a passionate front-end developer with expertise in creating beautiful and functional websites. With experience in HTML, CSS, JavaScript, and web animation, I build user-centric web designs. My goal is to deliver intuitive, responsive, and accessible websites for an optimal user experience across all devices.</p>
+        <a href="#" class="btn read-more-btn">Read More</a>
     </div>
 </section>
 
 <section class="services" id="services">
     <h2 class="heading">Services</h2>
-
     <div class="services-container">
-
         <div class="service-box">
-          <div class="service-info">
-            <i class="bx bxs-devices"></i>
-            <h4>Mobile App Development</h4>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Dolor dolorem blanditiis totam officiis? Consectetur alias, 
-                nemo maxime optio nisi quasi, minima ipsam consequatur accusamus 
-                autem distinctio voluptatibus porro aperiam odit?</p>
-          </div>  
+            <div class="service-info">
+                <i class="bx bxs-devices"></i>
+                <h4 class="service-title">Mobile App Development</h4>
+                <p class="service-description">I offer mobile app development services, designing mobile-friendly apps with clean code and seamless functionality. Whether you're looking to develop for iOS or Android, I ensure your app provides a smooth, user-friendly experience.</p>
+            </div>  
         </div>
         <div class="service-box">
             <div class="service-info">
-              <i class="bx bx-code"></i>
-              <h4>Frontend Development</h4>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                  Dolor dolorem blanditiis totam officiis? Consectetur alias, 
-                  nemo maxime optio nisi quasi, minima ipsam consequatur accusamus 
-                  autem distinctio voluptatibus porro aperiam odit?</p>
+                
+                <i class="bx bx-code"></i>
+                <h4 class="service-title">Frontend Development</h4>
+                <p class="service-description">As a front-end developer, I specialize in creating responsive, accessible, and engaging websites. I ensure pixel-perfect designs and efficient code to bring your ideas to life, providing a seamless experience across all devices.</p>
             </div>  
-          </div>
-          <div class="service-box">
+        </div>
+        <div class="service-box">
             <div class="service-info">
-              <i class="bx bx-code-curly"></i>
-              <h4>Backend Development</h4>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                  Dolor dolorem blanditiis totam officiis? Consectetur alias, 
-                  nemo maxime optio nisi quasi, minima ipsam consequatur accusamus 
-                  autem distinctio voluptatibus porro aperiam odit?</p>
+                
+                <i class="bx bx-code-curly"></i>
+                <h4 class="service-title">Backend Development</h4>
+                <p class="service-description">I offer backend development services to support your website or application’s infrastructure. I work with databases, APIs, and server-side code to ensure the backend runs smoothly and securely, enabling seamless integration with the frontend.</p>
             </div>  
-          </div>
-
+        </div>
     </div>
 </section>
-<section class="contact" id="contact">
-    <h2 class="heading"> Contact <span>Me</span></h2>
 
+
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
     <form action="">
         <div class="input-group">
             <div class="input-box">
-            <input type="text" placeholder="Full Name">
-            <input type="email" placeholder="Email">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
             </div>
             <div class="input-box">
                 <input type="number" placeholder="Phone Number">
                 <input type="text" placeholder="Subject">
             </div>
-            
         </div>
-
 
         <div class="input-group-2">
-            <textarea name="" id="" cols="" rows="10" 
-            placeholder="Your Message"></textarea>
-            <input type="submit" value="Send Message"
-            class="btn">
+            <textarea name="" id="" cols="" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
         </div>
     </form>
-
 </section>
 
 <footer class="footer">
-    
-         <div class="social-icons">
-            <a href="#"><i class="bx bxl-github"></i></a>
-                <a href="#"><i class="bx bxl-discord"></i></a>
-                <a href="https://www.instagram.com/yana_yx.nx?igsh=MWsyOXRyY3ExN3dqbQ=="
-                 target="_blank"><i class="bx bxl-instagram-alt"></i></a>
-                 <a href="https://www.facebook.com/danielanicole.tarrayo.3?mibextid=ZbWKwL" 
-                 target="_blank"><i class="bx bxl-facebook"></i></a>
-
-         </div>
-         <ul class="list">
-            <li>
-                <a href="#">FAQ</a>
-            </li>
-            <li>
-                <a href="#services">Services</a>
-            </li>
-            <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-         </ul>
-
-         <p class="copyright">
-            Tarrayo | All right Reseved
-         </p>
-
+    <div class="social-icons">
+        <a href="#"><i class="bx bxl-github"></i></a>
+        <a href="#"><i class="bx bxl-discord"></i></a>
+        <a href="https://www.instagram.com/yana_yx.nx?igsh=MWsyOXRyY3ExN3dqbQ==" target="_blank"><i class="bx bxl-instagram-alt"></i></a>
+        <a href="https://www.facebook.com/danielanicole.tarrayo.3?mibextid=ZbWKwL" target="_blank"><i class="bx bxl-facebook"></i></a>
+    </div>
+    <ul class="list">
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <p class="copyright">
+        Tarrayo | All rights Reserved
+    </p>
 </footer>
 
-    <script src="script.js "></script>
+<script src="script.js"></script>
 </body>
 </html>
